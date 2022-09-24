@@ -29,16 +29,16 @@ from telethon import __version__ as tlhver
 
 import FallenRobot.modules.sql.users_sql as sql
 from FallenRobot import (
-    BOT_NAME,
-    BOT_USERNAME,
+    BOT_NAME,"ShivuXmusic"
+    BOT_USERNAME,"ShivuXmusicBot"
     CERT_PATH,
     DONATION_LINK,
-    LOGGER,
-    OWNER_ID,
+    LOGGER,"https://t.me/disscussting"
+    OWNER_ID,"1930739461"
     PORT,
-    START_IMG,
-    SUPPORT_CHAT,
-    TOKEN,
+    START_IMG,"https://te.legra.ph/file/8183cb3c7ea513300e6d9.jpg"
+    SUPPORT_CHAT,"https://t.me/Fake_feelings7x"
+    TOKEN,"5791501037:AAF1ph5TMIx5GI3D-0C0jGP9iNnou4hsMw0"
     URL,
     WEBHOOK,
     StartTime,
@@ -94,7 +94,7 @@ buttons = [
     [
         InlineKeyboardButton(
             text="ᴀᴅᴅ ᴍᴇ ᴇʟsᴇ ʏᴏᴜ ɢᴇʏ",
-            url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+            url=f"https://t.me/ShivuXmusicBot?startgroup=true",
         ),
     ],
     [
@@ -102,11 +102,11 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="❄ ᴀʙᴏᴜᴛ ❄", callback_data="fallen_"),
-        InlineKeyboardButton(text="✨ sᴜᴩᴩᴏʀᴛ ✨", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="✨ sᴜᴩᴩᴏʀᴛ ✨", url=f"https://t.me/techSquad7x"),
     ],
     [
-        InlineKeyboardButton(text="🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🥀", url=f"tg://user?id={OWNER_ID}"),
-        InlineKeyboardButton(text="☁️ sᴏᴜʀᴄᴇ ☁️", callback_data="source_"),
+        InlineKeyboardButton(text="🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🥀", url=f"tg://user?id="1930739461"),
+        InlineKeyboardButton(text="☁️ sᴏᴜʀᴄᴇ ☁️", callback_data="https://github.com/ShivuXmusic7x"),
     ],
 ]
 
@@ -403,11 +403,11 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                     ],
                     [
                         InlineKeyboardButton(
-                            text="ᴅᴇᴠᴇʟᴏᴩᴇʀ", url=f"tg://user?id={OWNER_ID}"
+                            text="ᴅᴇᴠᴇʟᴏᴩᴇʀ", url=f"tg://user?id="1930739461"
                         ),
                         InlineKeyboardButton(
                             text="sᴏᴜʀᴄᴇ",
-                            callback_data="source_",
+                            callback_data="https://github.com/ShivuXmusic7x",
                         ),
                     ],
                     [
@@ -428,12 +428,12 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                             text="sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
                         ),
                         InlineKeyboardButton(
-                            text="ᴜᴩᴅᴀᴛᴇs", url=f"https://t.me/{SUPPORT_CHAT}"
+                            text="ᴜᴩᴅᴀᴛᴇs", url=f"https://t.me/"https://t.me/Fake_feelings7x"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="ᴅᴇᴠᴇʟᴏᴩᴇʀ", url=f"tg://user?id={OWNER_ID}"
+                            text="ᴅᴇᴠᴇʟᴏᴩᴇʀ", url=f"tg://user?id="1930739461"
                         ),
                         InlineKeyboardButton(
                             text="ɢɪᴛʜᴜʙ",
